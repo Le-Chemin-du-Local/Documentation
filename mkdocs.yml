@@ -7,6 +7,7 @@ theme:
 
 repo_url: https://github.com/Le-Chemin-du-Local/Manifeste-du-dev
 edit_uri: edit/addition/doc/docs/
+
 nav:
   - Bienvenue au chemin du local: index.md
   - Manifeste du dev: manifeste.md
