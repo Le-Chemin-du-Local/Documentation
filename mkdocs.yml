@@ -6,7 +6,7 @@ theme:
     primary: light blue
 
 repo_url: https://github.com/Le-Chemin-du-Local/Manifeste-du-dev
-edit_uri: edit/addition/doc/docs/
+edit_uri: edit/addition/docs/
 
 nav:
   - Bienvenue au chemin du local: index.md
