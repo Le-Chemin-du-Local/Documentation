@@ -5,7 +5,8 @@ theme:
   palette:
     primary: light blue
 
-repo_url: https://github.com/Le-Chemin-du-Local/Documentation
+repo_url: https://github.com/Le-Chemin-du-Local/Manifeste-du-dev
+edit_uri: edit/addition/doc/docs/
 
 nav:
   - Bienvenue au chemin du local: index.md
