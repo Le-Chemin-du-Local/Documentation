@@ -1,0 +1,30 @@
+site_name: Le chemin du local
+
+theme:
+  name: material
+  palette:
+    primary: light blue
+
+repo_url: https://github.com/Le-Chemin-du-Local/Manifeste-du-dev
+
+nav:
+  - Bienvenue au chemin du local: index.md
+  - Manifeste du dev: manifeste.md
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list: 
+  - admonition:
+  - toc:
+      permalink: true
+  - meta:
+  - def_list:
+  - pymdownx.details:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret:
+  - pymdownx.mark:
+  - pymdownx.tilde:
