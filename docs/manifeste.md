@@ -1,4 +1,4 @@
-# Manifeste-du-dev
+# Manifeste du dev
 
 ## Nos valeurs
 
