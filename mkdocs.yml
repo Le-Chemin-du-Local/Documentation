@@ -29,3 +29,8 @@ markdown_extensions:
   - pymdownx.caret:
   - pymdownx.mark:
   - pymdownx.tilde:
+  
+plugins:
+    - search: {}
+    - encryptcontent:
+        global_password: ${{ secrets.MkDocPassWord }}
