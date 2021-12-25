@@ -33,4 +33,4 @@ markdown_extensions:
 plugins:
     - search: {}
     - encryptcontent:
-        global_password: ${{ secrets.MkDocPassWord }}
+        global_password: ${{ secrets.MKDOCPASSWORD }}
