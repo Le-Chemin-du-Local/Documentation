@@ -40,7 +40,7 @@ est notre principale objectif.
 
 ### Une langue parlée unique
 
-Dans un soucis de cohérence mais aussi de convention il est important de définir le langage utilisé dans le code. 
+Dans un soucis de cohérence mais aussi de convention il est important de définir le langage utilisé dans le code.
 
 #### Distinction entre écriture de code et écriture destiné à un publique
 
@@ -68,8 +68,6 @@ Ces dernières ayant déjà été très bien rédigé, voici les conventions que
 
  > Petite note sur le JavaScript : l'utilisation de Typescript est imposé dès qu'elle est possible. Cela ce justifie par le fait que Typescript rend le langage fortement typé et permet une meilleur cohérence dans le code.
 
- 
-
 De manière générale dès qu'une question se pose sur le style, nommage, ou autre question de syntaxe il en viendra de se référer aux conventions de Google.
 
 ### La documentation et les commentaires
@@ -96,18 +94,18 @@ Il revient donc de commenter le code au fure et a mesure qu'il est écrit, mais 
 
 ### quelques bonnes pratiques sur l'écriture du code
 
-Afin de s'assurer d'avoir le code le plus robuste et pérenne possible, il y a certaines bonnes pratiques qui peuvent être appliqué. En voici une liste non exhaustive mais qui donne déjà une bonne direction
+Afin de s'assurer d'avoir la base de code la plus robuste et pérenne possible, il y a certaines bonnes pratiques qui peuvent être appliqué. En voici une liste non exhaustive mais qui donne déjà une bonne direction
 
 #### Écrire du code minimaliste
 
-Par principe, une fonction ne doit pas faire plus de 50 lignes de code (commentaires exclues). Cela permet d'aider à garder un code avec des fonctions compréhensible et qui ne font pas 50 tâches différentes.
+Par principe, une fonction ne doit pas faire plus de 50 lignes de code (commentaires exclues). Cela permet d'aider à garder un code avec des fonctions compréhensible et qui ne font pas plusieurs tâches différentes.
 
 #### Écrire un code testable
 
 Chaque fonction devra être pensée avec une idée de teste derrière. Cela signifie et rejoins le fait que chaque fonction a une utilité unique puisque il faut pouvoir avoir une attente bien précise en fonction des entrées données.
 
 ### Les messages de conmit
-Lea messagea de commit aeront toua rédigés en Français et devront contenir au plus 70 caractèrea. Afin de hien indiquer à quoi correspond le commit, un smiley sera **toujours** mis sn premier caractère aelon ![la norme Gitmoj](https://gitmoji.dev/)
+Lea messagea de commit seront tous rédigés en Français et devront contenir au plus 70 caractères. Afin de bien indiquer à quoi correspond le commit, un smiley sera **toujours** mis sn premier caractère aelon ![la norme Gitmoj](https://gitmoji.dev/)
 
 ### utilisation de Git et GitHub
 
@@ -121,17 +119,16 @@ Chaque projets aura au moins deux branches
 
  - la branche `master` sur laquelle se trouve le code qui a été déployé où au moins validé comme stable par l'équipe de développement
 
- - la branche `dev` qui est la branche de travail avec toutes les fonctionnalités complétés.
+ - la branche `dev` qui est la branche de travail avec toutes les fonctionnalités complétés
 
  
-
-Il sera aussi crée une branche pour feature avec que chaque fonctionnalités puissent être revu avant d'être fusionner sur la branche `dev`
+De plus nous aurons une branche par feature, afin que chaque fonctionnalités puissent être revu avant d'être fusionner sur la branche `dev`
 
 #### Les feature
 
 ##### Définition
 
-Pour chaque fonctionnalités ou tâche (par exemple : "créer les endpoint du chat* ou encore "créer la page de profil*, une branche **et** une issue sera créé. Ainsi, les issues pourront être attribuées et éventuellement, sur GitHub, triés dans la section projet.
+Pour chaque fonctionnalités ou tâche (par exemple : *créer les endpoint du chat* ou encore *créer la page de profil*, une branche **et** une issue sera créé. Ainsi, les issues pourront être attribuées et éventuellement, sur GitHub, triés dans la section projet.
 
 ##### Le review
 
