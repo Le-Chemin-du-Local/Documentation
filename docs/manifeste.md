@@ -1,6 +1,3 @@
----
-password: secret_password
----
 # Manifeste du dev
 
 ## Nos valeurs
