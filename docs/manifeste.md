@@ -2,7 +2,7 @@
 
 ## Nos valeurs
 
-Etre developpeur au chemin du local c'est respecter un ensemble de valeurs 
+Etre developpeur au Chemin du Local c'est respecter un ensemble de valeurs 
 communes qui font écho parmis nos utilisateurs !
 
 ### Le partage
